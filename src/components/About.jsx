@@ -25,7 +25,7 @@ export const About = () => {
 										<img
 											src='images/portrait.png'
 											alt=''
-											className='mt-5 object-none object-center'
+											className='mt-0 md:object-none object-center'
 										/>
 									</div>
 								</div>
