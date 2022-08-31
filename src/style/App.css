@@ -4,4 +4,5 @@ body {
 	overflow: hidden;
 	overscroll-behavior-x: none;
 	overscroll-behavior-y: none;
+	background-color: rgb(17, 16, 16);
 }
