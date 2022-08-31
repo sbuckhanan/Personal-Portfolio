@@ -4,9 +4,4 @@ body {
 	overflow: hidden;
 	overscroll-behavior-x: none;
 	overscroll-behavior-y: none;
-	background-color: #1f2334;
-}
-
-.noBackground {
-	background-color: #1f233400;
 }
