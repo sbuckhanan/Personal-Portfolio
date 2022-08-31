@@ -2,7 +2,7 @@
 export const About = () => {
 	return (
 		<div className='overflow-hidden'>
-			<div className='pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48'>
+			<div className='pt-0 mb:pt-16 pb-0 mb:pb-10 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48'>
 				<div className='mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8'>
 					<div className='sm:max-w-lg'>
 						<h1 className='font text-2xl font-bold tracking-tight text-blue-900 sm:text-6xl'>
@@ -16,7 +16,7 @@ export const About = () => {
 						</p>
 					</div>
 					<div>
-						<div className='mt-10'>
+						<div>
 							<div
 								aria-hidden='true'
 								className='pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl'>
