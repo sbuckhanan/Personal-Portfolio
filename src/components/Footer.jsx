@@ -1,10 +1,10 @@
 export const Footer = () => {
 	return (
-		<footer className='text-center bg-gray-900 text-white'>
+		<footer className='mb-0 pb-0 mt-10 text-center bg-gray-900 text-white'>
 			<div className='px-6 pt-6'>
 				<div className='flex items-center justify-center mb-6'>
 					<a
-						href='#!'
+						href='https://github.com/stephdaking'
 						type='button'
 						className='rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1'>
 						<svg
@@ -22,7 +22,7 @@ export const Footer = () => {
 						</svg>
 					</a>
 					<a
-						href='#!'
+						href='https://www.linkedin.com/in/stephonbuckhanan/'
 						type='button'
 						className='rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1'>
 						<svg
@@ -40,8 +40,9 @@ export const Footer = () => {
 						</svg>
 					</a>
 					<a
-						href='#!'
+						href='files/Resume.pdf'
 						type='button'
+						download='Resume'
 						className='rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1'>
 						<svg
 							className='w-3 h-full mx-auto'

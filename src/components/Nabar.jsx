@@ -17,7 +17,7 @@ export const Navbar = () => {
 						</span>
 					</div>
 					<div className='flex md:order-2'>
-						<div onClick={handleNav} className='block md:hidden'>
+						<div onClick={handleNav} className='block mt-8 md:hidden'>
 							{nav ? (
 								<AiOutlineClose color={'white'} size={20} />
 							) : (
@@ -34,9 +34,9 @@ export const Navbar = () => {
 							<li className='text-white cursor-pointer hover:text-blue-600'>Contact</li>
 						</ul>
 					</div>
-					<div className='flex md:order-2 mt-4'>
+					<div className='hidden md:flex md:order-2 mt-4'>
 						<a
-							href='#!'
+							href='https://github.com/stephdaking'
 							type='button'
 							className='rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1'>
 							<svg
@@ -54,7 +54,7 @@ export const Navbar = () => {
 							</svg>
 						</a>
 						<a
-							href='#!'
+							href='https://www.linkedin.com/in/stephonbuckhanan/'
 							type='button'
 							className='rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1'>
 							<svg
@@ -72,8 +72,9 @@ export const Navbar = () => {
 							</svg>
 						</a>
 						<a
-							href='#!'
+							href='files/Resume.pdf'
 							type='button'
+							download='Resume'
 							className='rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1'>
 							<svg
 								className='w-3 h-full mx-auto'

@@ -5,11 +5,11 @@ import { DiPostgresql } from 'react-icons/di';
 
 export const Skills = () => {
 	return (
-		<div className='md:mt-10'>
-			<h2 className='mb-0 md:mb-15 font text-2xl font-bold tracking-tight text-blue-900 sm:text-6xl text-center'>
+		<div className='mt-5 md:mt-10'>
+			<h2 className='mb-10 md:mb-15 font text-2xl font-bold tracking-tight text-blue-900 sm:text-6xl text-center'>
 				Skills
 			</h2>
-			<div className='flex justify-center items-center h-64 gap-4'>
+			<div className='flex justify-center items-center'>
 				<div className='flex flex-wrap justify-center items-center gap-4 w-11/12'>
 					<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
 						<AiFillHtml5 className='h-8 w-8 md:h-16 md:w-16' color={'orange'} />
