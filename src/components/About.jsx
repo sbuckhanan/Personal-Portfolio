@@ -1,4 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
 export const About = () => {
 	return (
 		<div className='overflow-hidden'>
@@ -14,23 +13,6 @@ export const About = () => {
 							nothing I love more than solving a complex real world problem with a unique coding
 							solution.
 						</p>
-					</div>
-					<div>
-						<div>
-							<div
-								aria-hidden='true'
-								className='pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl'>
-								<div className='md:absolute md:transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8'>
-									<div className='items-center space-x-6 lg:space-x-8'>
-										<img
-											src='images/portrait.png'
-											alt=''
-											className='mt-0 md:object-none object-center'
-										/>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
