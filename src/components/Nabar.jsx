@@ -10,9 +10,9 @@ export const Navbar = () => {
 	return (
 		<div>
 			<nav className='h-20 px-2 sm:px-4 py-2.5 w-full z-20 top-0 left-0'>
-				<div className='container flex flex-wrap justify-between items-center mx-auto'>
+				<div className='justify-between flex flex-wrap ml-4'>
 					<div className='flex'>
-						<span className='text-blue-600 text-3xl font-semibold whitespace-nowrap'>
+						<span className='text-blue-600 mt-4 text-3xl font-semibold whitespace-nowrap'>
 							Portfolio
 						</span>
 					</div>
@@ -25,10 +25,8 @@ export const Navbar = () => {
 							)}
 						</div>
 					</div>
-					<div
-						className='hidden justify-between items-center w-full md:flex md:w-auto md:order-1'
-						id='navbar-sticky'>
-						<ul className='flex flex-col p-4 mt-4 bg-inherit rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-xl md:text-base md:border-0'>
+					<div className='hidden md:flex md:order-1 mt-5' id='navbar-sticky'>
+						<ul className='flex flex-col mt-2 bg-inherit rounded-lg border border-gray-100 md:flex-row md:space-x-4 md:text-xl md:text-base md:border-0'>
 							<li className='text-white cursor-pointer hover:text-blue-600'>About</li>
 							<li className='text-white cursor-pointer hover:text-blue-600'>Projects</li>
 							<li className='text-white cursor-pointer hover:text-blue-600'>Contact</li>
