@@ -1,6 +1,6 @@
 export const About = () => {
 	return (
-		<div className='pt-0 pb-0 mb:pb-10 md:pt-28'>
+		<div id='about' className='pt-0 pb-0 mb:pb-10 md:pt-28'>
 			<div className='mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8'>
 				<div className='sm:max-w-lg'>
 					<h1 className='font text-2xl font-bold tracking-tight text-blue-900 sm:text-6xl'>
@@ -12,7 +12,7 @@ export const About = () => {
 						I love more than solving a complex real world problem with a unique coding solution.
 					</p>
 				</div>
-				<button className='mt-5 h-16 w-32 bg-white text-blue-900 rounded'>
+				<button className='mt-5 h-16 w-32 bg-slate-400 text-blue-900 rounded'>
 					<a href='files/Resume.pdf' type='button' download='Resume'>
 						Download CV
 					</a>

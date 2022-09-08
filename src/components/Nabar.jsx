@@ -29,9 +29,14 @@ export const Navbar = () => {
 						className='hidden w-3/4 justify-center items-center text-center md:flex md:order-1 mt-5'
 						id='navbar-sticky'>
 						<ul className='flex flex-col mt-2 bg-inherit rounded-lg border border-gray-100 md:flex-row md:space-x-4 md:text-xl md:border-0'>
-							<li className='text-white cursor-pointer hover:text-blue-600'>About</li>
-							<li className='text-white cursor-pointer hover:text-blue-600'>Projects</li>
-							<li className='text-white cursor-pointer hover:text-blue-600'>Contact</li>
+							<li className='text-slate-400 cursor-pointer hover:text-blue-600'>
+								<a href='#about'>About</a>
+							</li>
+							<li className='text-slate-400 cursor-pointer hover:text-blue-600'>Projects</li>
+							<li className='text-slate-400 cursor-pointer hover:text-blue-600'>Contact</li>
+							<li className='text-slate-400 cursor-pointer hover:text-blue-600'>
+								<a href='#skills'>Skills</a>
+							</li>
 						</ul>
 					</div>
 					<div className='hidden md:flex md:order-2 mt-4'>
@@ -44,7 +49,7 @@ export const Navbar = () => {
 								focusable='false'
 								data-prefix='fab'
 								data-icon='github'
-								className='w-3 h-full mx-auto'
+								className='w-3 h-full mx-auto text-blue-600'
 								role='img'
 								xmlns='http://www.w3.org/2000/svg'
 								viewBox='0 0 496 512'>
@@ -62,7 +67,7 @@ export const Navbar = () => {
 								focusable='false'
 								data-prefix='fab'
 								data-icon='linkedin-in'
-								className='w-3 h-full mx-auto'
+								className='w-3 h-full mx-auto text-blue-600'
 								role='img'
 								xmlns='http://www.w3.org/2000/svg'
 								viewBox='0 0 448 512'>
@@ -77,7 +82,7 @@ export const Navbar = () => {
 							download='Resume'
 							className='rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1'>
 							<svg
-								className='w-3 h-full mx-auto'
+								className='w-3 h-full mx-auto text-blue-600'
 								xmlns='http://www.w3.org/2000/svg'
 								viewBox='0 0 384 512'>
 								<path
