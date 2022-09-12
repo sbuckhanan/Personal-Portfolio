@@ -12,7 +12,7 @@ export const Navbar = () => {
 			<nav
 				className={
 					nav
-						? 'bg-blue-900 h-20 px-2 w-full shadow-xl z-[100] top-0 left-0'
+						? 'fixed bg-blue-900 h-20 px-2 w-full shadow-xl z-[100] top-0 left-0'
 						: 'fixed bg-blue-900 h-20 px-2 w-full shadow-xl z-[100] top-0 left-0'
 				}>
 				<div className='justify-between flex flex-wrap ml-6'>
@@ -106,8 +106,8 @@ export const Navbar = () => {
 			<ul
 				className={
 					nav
-						? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
-						: 'top-0 h-full ease-in-out duration-500 fixed left-[-100%]'
+						? 'fixed left-0 top-0 w-[60%] z-[110] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
+						: 'top-0 h-full ease-in-out z-[110] duration-500 fixed left-[-100%]'
 				}>
 				<h1 className='text-3xl font-bold text-blue-600 m-4'>Portfolio</h1>
 				<li className='p-4 border-b border-gray-600 text-white'>About</li>
