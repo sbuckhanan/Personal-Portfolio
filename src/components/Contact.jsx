@@ -6,7 +6,7 @@ export const Contact = () => {
 					<p className='text-4xl tracking-widest text-center uppercase text-blue-900 mb-5'>
 						Contact Me
 					</p>
-					<div className='w-2/4 h-auto bg-inherit rounded-xl lg:p-4'>
+					<div className='w-full md:w-2/4 h-auto bg-inherit rounded-xl lg:p-4'>
 						<div className='p-4'>
 							<form
 								action='https://getform.io/f/f143ae53-5b8d-4b3f-8104-9db433cf318f'
