@@ -37,10 +37,14 @@ export const Navbar = () => {
 							<li className='text-slate-400 cursor-pointer hover:text-blue-600'>
 								<a href='#about'>About</a>
 							</li>
-							<li className='text-slate-400 cursor-pointer hover:text-blue-600'>Projects</li>
-							<li className='text-slate-400 cursor-pointer hover:text-blue-600'>Contact</li>
+							<li className='text-slate-400 cursor-pointer hover:text-blue-600'>
+								<a href='#projects'>Projects</a>
+							</li>
 							<li className='text-slate-400 cursor-pointer hover:text-blue-600'>
 								<a href='#skills'>Skills</a>
+							</li>
+							<li className='text-slate-400 cursor-pointer hover:text-blue-600'>
+								<a href='#contact'>Contact</a>
 							</li>
 						</ul>
 					</div>
