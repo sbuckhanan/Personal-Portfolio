@@ -45,6 +45,40 @@ export const Projects = () => {
 							</div>
 						</div>
 						{/* End of project three */}
+						{/* Beginning of project four */}
+						<div className='mt-8 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
+							<img className='rounded-t-lg' src='images/tarkovConnect.png' alt='' />
+							<div className='p-5'>
+								<h5 className='mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white'>
+									Movie Sagas
+								</h5>
+								<p className='mb-3 text-center font-normal text-gray-700 dark:text-gray-400'>
+									Application where you can add information about your favorite movies. You can show
+									the title, description, genres, and an image of the movie. You also click them to
+									see the full details of the movie. There is also the ability to edit the full
+									details if needed. It also features file upload via multer.
+								</p>
+								<ul className='mb-2 mr-2 flex flex-row flex-wrap justify-center'>
+									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>React</li>
+									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Redux</li>
+									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Redux-Saga</li>
+									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Material-UI</li>
+									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Multer</li>
+									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Node</li>
+									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Express</li>
+									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Postgres</li>
+								</ul>
+								<div className='flex justify-center items-center'>
+									<button className='inline-flex mr-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
+										<a href='https://guarded-scrubland-35964.herokuapp.com/#/'>Deployed App</a>
+									</button>
+									<button className='inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
+										<a href='https://github.com/stephdaking/weekend-movie-sagas'>GitHub Repo</a>
+									</button>
+								</div>
+							</div>
+						</div>
+						{/* End of project four */}
 						{/* Beginning of project two */}
 						<div className='max-w-sm mt-8 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
 							<img className='rounded-t-lg' src='images/portfolio.png' alt='' />
