@@ -6,7 +6,7 @@ export const Projects = () => {
 			</h2>
 			<div className='flex justify-center items-center'>
 				<div className='flex flex-wrap justify-center items-center gap-4 w-11/12'>
-					<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+					<div className='flex flex-col items-center'>
 						{/* Beginning of project three */}
 						<div className='max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
 							<img className='rounded-t-lg' src='images/BlueVest.png' alt='' />
@@ -25,6 +25,7 @@ export const Projects = () => {
 									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>React</li>
 									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Redux</li>
 									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Redux-Saga</li>
+									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Passport</li>
 									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Tailwind</li>
 									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Canopy Connect API</li>
 									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Calendly API</li>
@@ -87,6 +88,7 @@ export const Projects = () => {
 									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Redux-Saga</li>
 									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Socket.io</li>
 									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Material-UI</li>
+									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Passport</li>
 									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Node</li>
 									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Express</li>
 									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Postgres</li>

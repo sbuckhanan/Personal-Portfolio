@@ -11,39 +11,39 @@ export const Skills = () => {
 			</h2>
 			<div className='flex justify-center items-center'>
 				<div className='flex flex-wrap justify-center items-center gap-4 w-11/12'>
-					<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+					<div className='flex flex-col items-center'>
 						<AiFillHtml5 className='h-8 w-8 md:h-16 md:w-16' color={'orange'} />
 						<h5 className='text-white text-center'>HTML 5</h5>
 					</div>
-					<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+					<div className='flex flex-col items-center'>
 						<FaCss3Alt className='h-8 w-8 md:h-16 md:w-16' color={'blue'} />
 						<h5 className='text-white text-center'>CSS 3</h5>
 					</div>
-					<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+					<div className='flex flex-col items-center'>
 						<SiJavascript className='h-8 w-8 md:h-16 md:w-16' color={'yellow'} />
 						<h5 className='text-white text-center'>JavaScript</h5>
 					</div>
-					<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+					<div className='flex flex-col items-center'>
 						<FaReact className='h-8 w-8 md:h-16 md:w-16' color={'teal'} />
 						<h5 className='text-white'>React.js</h5>
 					</div>
-					<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+					<div className='flex flex-col items-center'>
 						<SiRedux className='h-8 w-8 md:h-16 md:w-16' color={'purple'} />
 						<h5 className='text-white'>Redux</h5>
 					</div>
-					<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+					<div className='flex flex-col items-center'>
 						<SiReduxsaga className='h-8 w-8 md:h-16 md:w-16' color={'grey'} />
 						<h5 className='text-white'>Redux-Saga</h5>
 					</div>
-					<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+					<div className='flex flex-col items-center'>
 						<FaNodeJs className='h-8 w-8 md:h-16 md:w-16' color={'green'} />
 						<h5 className='text-white'>Node.js</h5>
 					</div>
-					<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+					<div className='flex flex-col items-center'>
 						<SiExpress className='h-8 w-8 md:h-16 md:w-16' color={'yellow'} />
 						<h5 className='text-white'>Express.js</h5>
 					</div>
-					<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+					<div className='flex flex-col items-center'>
 						<svg
 							className='h-8 w-8 md:h-16 md:w-16'
 							xmlns='http://www.w3.org/2000/svg'
@@ -68,7 +68,7 @@ export const Skills = () => {
 						</svg>
 						<h5 className='text-white'>C#</h5>
 					</div>
-					<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+					<div className='flex flex-col items-center'>
 						<svg className='h-8 w-8 md:h-16 md:w-16' viewBox='0 0 128 128'>
 							<g fill='#1384c8'>
 								<path d='m40.335 78.188h-1.685v-9.65c0-.762.05-1.69.14-2.785h-.038c-.158.64-.303 1.104-.43 1.391l-4.902 11.044h-.821l-4.911-10.964c-.138-.306-.283-.799-.43-1.471h-.036c.052.576.081 1.509.081 2.804v9.631h-1.626v-14.371h2.225l4.409 10.021c.332.754.547 1.328.651 1.72h.069c.288-.785.517-1.375.688-1.762l4.505-9.979h2.11v14.371zm5.188 0h-1.639v-10.263h1.639zm.283-13.942c0 .303-.106.555-.317.763-.207.208-.464.312-.764.312-.293 0-.548-.101-.757-.301-.209-.201-.313-.458-.313-.774 0-.296.104-.549.313-.754s.464-.305.757-.305c.3 0 .557.099.764.305.211.205.317.458.317.754' />
@@ -84,11 +84,11 @@ export const Skills = () => {
 						</svg>
 						<h5 className='text-white'>.NET</h5>
 					</div>
-					<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+					<div className='flex flex-col items-center'>
 						<SiMysql className='h-8 w-8 md:h-16 md:w-16' color={'blue'} />
 						<h5 className='text-white text-center'>MySQL</h5>
 					</div>
-					<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+					<div className='flex flex-col items-center'>
 						<DiPostgresql className='h-8 w-8 md:h-16 md:w-16' color={'blue'} />
 						<h5 className='text-white'>Postgres</h5>
 					</div>
