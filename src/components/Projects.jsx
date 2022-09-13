@@ -35,9 +35,6 @@ export const Projects = () => {
 									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Postgres</li>
 								</ul>
 								<div className='flex justify-center items-center'>
-									<button className='inline-flex mr-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
-										<a href=''>Deployed App</a>
-									</button>
 									<button className='inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
 										<a href='https://github.com/blueyprime/blue-prime'>GitHub Repo</a>
 									</button>
@@ -94,9 +91,6 @@ export const Projects = () => {
 									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Tailwind</li>
 								</ul>
 								<div className='flex justify-center items-center'>
-									<button className='inline-flex mr-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
-										<a href=''>Deployed App</a>
-									</button>
 									<button className='inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
 										<a href='https://github.com/stephdaking/personal-portfolio'>GitHub Repo</a>
 									</button>
