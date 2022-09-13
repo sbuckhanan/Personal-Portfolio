@@ -21,8 +21,8 @@ export const Navbar = () => {
 							Portfolio
 						</span>
 					</div>
-					<div className='flex md:order-2'>
-						<div onClick={handleNav} className='block mt-8 md:hidden'>
+					<div className='flex lg:order-2'>
+						<div onClick={handleNav} className='block mt-8 lg:hidden'>
 							{nav ? (
 								<AiOutlineClose color={'white'} size={20} />
 							) : (
@@ -31,9 +31,9 @@ export const Navbar = () => {
 						</div>
 					</div>
 					<div
-						className='hidden w-3/4 justify-center items-center text-center md:flex md:order-1 mt-5'
+						className='hidden w-3/4 justify-center items-center text-center lg:flex lg:order-1 mt-5'
 						id='navbar-sticky'>
-						<ul className='flex flex-col mt-2 bg-inherit rounded-lg border border-gray-100 md:flex-row md:space-x-4 md:text-xl md:border-0'>
+						<ul className='flex flex-col mt-2 bg-inherit rounded-lg border border-gray-100 lg:flex-row lg:space-x-4 lg:text-xl lg:border-0'>
 							<li className='text-slate-400 cursor-pointer hover:text-blue-600'>
 								<a href='#about'>About</a>
 							</li>
@@ -48,7 +48,7 @@ export const Navbar = () => {
 							</li>
 						</ul>
 					</div>
-					<div className='hidden md:flex md:order-2 mt-4'>
+					<div className='hidden lg:flex lg:order-2 mt-4'>
 						<a
 							href='https://github.com/stephdaking'
 							type='button'

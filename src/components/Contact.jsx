@@ -4,13 +4,13 @@ export const Contact = () => {
 			<center>
 				<div className='max-w-[1240px] items-center justify-center m-auto px-2 py-16 w-full '>
 					<p className='text-4xl font-bold text-center uppercase text-blue-900 mb-5'>Contact Me</p>
-					<div className='w-full md:w-2/4 h-auto bg-inherit rounded-xl lg:p-4'>
+					<div className='w-full lg:w-2/4 h-auto bg-inherit rounded-xl lg:p-4'>
 						<div className='p-4'>
 							<form
 								action='https://getform.io/f/f143ae53-5b8d-4b3f-8104-9db433cf318f'
 								method='POST'
 								encType='multipart/form-data'>
-								<div className='grid md:grid-cols-2 gap-4 w-full py-2'>
+								<div className='grid lg:grid-cols-2 gap-4 w-full py-2'>
 									<div className='flex flex-col'>
 										<label className='uppercase text-sm py-2'>Name</label>
 										<input
