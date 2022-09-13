@@ -44,7 +44,7 @@ export const Projects = () => {
 						{/* End of project three */}
 						{/* Beginning of project four */}
 						<div className='mt-8 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
-							<img className='rounded-t-lg' src='images/tarkovConnect.png' alt='' />
+							<img className='rounded-t-lg' src='images/movieSaga.png' alt='' />
 							<div className='p-5'>
 								<h5 className='mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white'>
 									Movie Sagas
