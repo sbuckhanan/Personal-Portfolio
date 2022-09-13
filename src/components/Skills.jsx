@@ -5,8 +5,8 @@ import { DiPostgresql } from 'react-icons/di';
 
 export const Skills = () => {
 	return (
-		<div id='skills' className='mt-5 md:mt-10'>
-			<h2 className='mb-10 text-4xl md:mb-15 md:text-2xl font-bold tracking-tight text-blue-900 text-center'>
+		<div id='skills' className='mt-24'>
+			<h2 className='mb-10 text-4xl md:mb-15 uppercase font-bold tracking-tight text-blue-900 text-center'>
 				Skills
 			</h2>
 			<div className='flex justify-center items-center'>

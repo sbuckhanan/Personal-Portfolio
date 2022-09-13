@@ -1,7 +1,7 @@
 export const Projects = () => {
 	return (
-		<div id='skills' className='mt-5 md:mt-10'>
-			<h2 className='mb-10 text-4xl md:mb-15 md:text-2xl font-bold tracking-tight text-blue-900 text-center'>
+		<div id='projects' className='mt-5 md:mt-10'>
+			<h2 className='mb-10 uppercase md:mb-15 text-4xl font-bold tracking-tight text-blue-900 text-center'>
 				Projects
 			</h2>
 			<div className='flex justify-center items-center'>

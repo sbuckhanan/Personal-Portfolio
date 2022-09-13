@@ -3,9 +3,7 @@ export const Contact = () => {
 		<div id='contact' className='bg-inherit w-full mb-10 mt-10'>
 			<center>
 				<div className='max-w-[1240px] items-center justify-center m-auto px-2 py-16 w-full '>
-					<p className='text-4xl tracking-widest text-center uppercase text-blue-900 mb-5'>
-						Contact Me
-					</p>
+					<p className='text-4xl font-bold text-center uppercase text-blue-900 mb-5'>Contact Me</p>
 					<div className='w-full md:w-2/4 h-auto bg-inherit rounded-xl lg:p-4'>
 						<div className='p-4'>
 							<form
@@ -53,7 +51,7 @@ export const Contact = () => {
 										rows='10'
 										name='message'></textarea>
 								</div>
-								<button className='w-full border hover:bg-blue-500 p-4 text-gray-100 mt-4'>
+								<button className='w-full border hover:bg-blue-600 p-4 text-gray-100 mt-4'>
 									Send Message
 								</button>
 							</form>

@@ -7,7 +7,7 @@ export const About = () => {
 						LET'S BUILD SOMETHING TOGETHER
 					</p>
 					<h1 className='py-4 text-3xl text-gray-400'>
-						Hi, I'm <span className='text-4xl text-[#5651e5]'> Stephon Buckhanan</span>
+						Hi, I'm <span className='text-4xl text-blue-600'> Stephon Buckhanan</span>
 					</h1>
 					<h1 className='py-2 text-2xl text-gray-400'>Full-Stack Software Engineer</h1>
 					<p className='px-1 py-4 text-gray-400 text-xl sm:max-w-[70%] m-auto'>
