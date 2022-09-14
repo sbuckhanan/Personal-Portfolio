@@ -9,12 +9,7 @@ export const Navbar = () => {
 
 	return (
 		<div>
-			<nav
-				className={
-					nav
-						? 'fixed bg-blue-900 h-20 px-2 w-full shadow-xl z-[100] top-0 left-0'
-						: 'fixed bg-blue-900 h-20 px-2 w-full shadow-xl z-[100] top-0 left-0'
-				}>
+			<nav className='fixed top-0 z-50 bg-blue-900 h-20 px-2 w-full shadow-xl'>
 				<div className='justify-between flex flex-wrap ml-6'>
 					<div className='flex'>
 						<span className='text-blue-600 mt-6 text-3xl font-semibold whitespace-nowrap'>

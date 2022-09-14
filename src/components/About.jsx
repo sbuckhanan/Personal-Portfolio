@@ -1,6 +1,6 @@
 export const About = () => {
 	return (
-		<div id='about' className='w-full h-screen text-center'>
+		<div id='about' className='pt-16 relative w-full h-screen text-center'>
 			<div className='max-w-[1240px] w-full h-full mx-auto flex justify-center items-center'>
 				<div>
 					<p className='uppercase text-lg tracking-widest text-gray-400'>
@@ -10,7 +10,7 @@ export const About = () => {
 						Hi, I'm <span className='text-4xl text-blue-600'> Stephon Buckhanan</span>
 					</h1>
 					<h1 className='py-2 text-2xl text-gray-400'>Full-Stack Software Engineer</h1>
-					<p className='px-1 py-4 text-gray-400 text-xl sm:max-w-[70%] m-auto'>
+					<p className='px-1 py-4 text-gray-400 text-xl m-auto'>
 						For the last two years I have been obsessed with learning everything that has to do with
 						coding. There is nothing I love more than solving a complex real world problem with a
 						unique coding solution. I have a passion for youth and diversity inside the tech world.
