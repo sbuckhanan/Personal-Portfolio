@@ -10,7 +10,7 @@ export const Skills = () => {
 				Skills
 			</h2>
 			<div className='flex justify-center items-center'>
-				<div className='flex flex-wrap justify-center items-center gap-8 w-full lg:w-11/12'>
+				<div className='flex flex-wrap justify-center items-center gap-6 w-full lg:w-11/12'>
 					<div className='flex flex-col items-center justify-center'>
 						<AiFillHtml5 className='h-8 w-8 lg:h-16 lg:w-16' color={'orange'} />
 						<h5 className='text-white text-center'>HTML 5</h5>
