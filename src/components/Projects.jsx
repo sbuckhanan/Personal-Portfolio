@@ -21,18 +21,26 @@ export const Projects = () => {
 									Developed an algorithm to match a client with 3 different agents based on the
 									clients state and when those 3 agents last received a lead.
 								</p>
-								<ul className='mb-2 mr-2 flex flex-row flex-wrap justify-center'>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>React</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Redux</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Redux-Saga</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Passport</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Tailwind</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Canopy Connect API</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Calendly API</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>SendGrid API</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Node</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Express</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Postgres</li>
+								<ul className='text-sm lg:text-base mb-2 mr-2 flex flex-row flex-wrap items-center justify-center'>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>React</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Redux</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>
+										Redux-Saga
+									</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Passport</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Tailwind</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>
+										Canopy Connect API
+									</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>
+										Calendly API
+									</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>
+										SendGrid API
+									</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Node</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Express</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Postgres</li>
 								</ul>
 								<div className='flex justify-center items-center'>
 									<button className='inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
@@ -56,14 +64,18 @@ export const Projects = () => {
 									details if needed. It also features file upload via multer.
 								</p>
 								<ul className='mb-2 mr-2 flex flex-row flex-wrap justify-center'>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>React</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Redux</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Redux-Saga</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Material-UI</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Multer</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Node</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Express</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Postgres</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>React</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Redux</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>
+										Redux-Saga
+									</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>
+										Material-UI
+									</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Multer</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Node</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Express</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Postgres</li>
 								</ul>
 								<div className='flex justify-center items-center'>
 									<button className='inline-flex mr-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
@@ -87,8 +99,8 @@ export const Projects = () => {
 									Portfolio website where I can display all of my skills and projects.
 								</p>
 								<ul className='mb-2 mr-2 flex flex-row flex-wrap justify-center'>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>React</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Tailwind</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>React</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Tailwind</li>
 								</ul>
 								<div className='flex justify-center items-center'>
 									<button className='inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
@@ -111,15 +123,21 @@ export const Projects = () => {
 									player feedback system.
 								</p>
 								<ul className='mb-2 mr-2 flex flex-row flex-wrap justify-center'>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>React</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Redux</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Redux-Saga</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Socket.io</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Material-UI</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Passport</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Node</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Express</li>
-									<li className='mr-2 mb-2 border rounded p-1 bg-sky-700'>Postgres</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>React</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Redux</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>
+										Redux-Saga
+									</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>
+										Socket.io
+									</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>
+										Material-UI
+									</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Passport</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Node</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Express</li>
+									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Postgres</li>
 								</ul>
 								<div className='flex justify-center items-center'>
 									<button className='inline-flex mr-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
