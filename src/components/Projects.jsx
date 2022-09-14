@@ -5,12 +5,12 @@ export const Projects = () => {
 				Projects
 			</h2>
 			<div className='flex justify-center items-center'>
-				<div className='flex flex-wrap justify-center items-center gap-4 w-11/12'>
+				<div className='flex flex-wrap justify-center items-center w-full'>
 					<div className='flex flex-col items-center'>
 						{/* Beginning of project three */}
 						<div className='max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
 							<img className='rounded-t-lg' src='images/BlueVest.png' alt='' />
-							<div className='p-5'>
+							<div className='p-2'>
 								<h5 className='mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white'>
 									BlueVest
 								</h5>
@@ -21,7 +21,7 @@ export const Projects = () => {
 									Developed an algorithm to match a client with 3 different agents based on the
 									clients state and when those 3 agents last received a lead.
 								</p>
-								<ul className='text-sm lg:text-base mb-2 mr-2 flex flex-row flex-wrap items-center justify-center'>
+								<ul className='text-sm lg:text-base mb-2 flex flex-row flex-wrap items-center justify-center'>
 									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>React</li>
 									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Redux</li>
 									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>
@@ -53,7 +53,7 @@ export const Projects = () => {
 						{/* Beginning of project four */}
 						<div className='mt-8 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
 							<img className='rounded-t-lg' src='images/movieSaga.png' alt='' />
-							<div className='p-5'>
+							<div className='p-2'>
 								<h5 className='mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white'>
 									Movie Sagas
 								</h5>
@@ -63,7 +63,7 @@ export const Projects = () => {
 									see the full details of the movie. There is also the ability to edit the full
 									details if needed. It also features file upload via multer.
 								</p>
-								<ul className='mb-2 mr-2 flex flex-row flex-wrap justify-center'>
+								<ul className='text-sm lg:text-base mb-2 flex flex-row flex-wrap items-center justify-center'>
 									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>React</li>
 									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Redux</li>
 									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>
@@ -91,14 +91,14 @@ export const Projects = () => {
 						{/* Beginning of project two */}
 						<div className='max-w-sm mt-8 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
 							<img className='rounded-t-lg' src='images/portfolio.png' alt='' />
-							<div className='p-5'>
+							<div className='p-2'>
 								<h5 className='mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white'>
 									Portfolio Website
 								</h5>
 								<p className='mb-3 text-center font-normal text-gray-700 dark:text-gray-400'>
 									Portfolio website where I can display all of my skills and projects.
 								</p>
-								<ul className='mb-2 mr-2 flex flex-row flex-wrap justify-center'>
+								<ul className='text-sm lg:text-base mb-2 flex flex-row flex-wrap items-center justify-center'>
 									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>React</li>
 									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Tailwind</li>
 								</ul>
@@ -113,7 +113,7 @@ export const Projects = () => {
 						{/* Beginning of project one */}
 						<div className='mt-8 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
 							<img className='rounded-t-lg' src='images/tarkovConnect.png' alt='' />
-							<div className='p-5'>
+							<div className='p-2'>
 								<h5 className='mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white'>
 									Tarkov Connect
 								</h5>
@@ -122,7 +122,7 @@ export const Projects = () => {
 									Features include live chat, private messaging, friend system, notifications, and
 									player feedback system.
 								</p>
-								<ul className='mb-2 mr-2 flex flex-row flex-wrap justify-center'>
+								<ul className='text-sm lg:text-base mb-2 flex flex-row flex-wrap items-center justify-center'>
 									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>React</li>
 									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>Redux</li>
 									<li className='mr-2 mb-2 border border-black rounded p-2 bg-sky-700'>
